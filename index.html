@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sean Nedorez — Digital Business Card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <input type="checkbox" id="theme-toggle" class="theme-toggle-input">
+
+  <div class="page">
+
+    <label for="theme-toggle" class="theme-switch" aria-label="Toggle dark and light mode">
+      <span class="theme-switch-track">
+        <span class="theme-switch-icon theme-switch-icon-moon">&#9789;</span>
+        <span class="theme-switch-icon theme-switch-icon-sun">&#9728;</span>
+        <span class="theme-switch-thumb"></span>
+      </span>
+    </label>
+
+    <main class="card">
+
+      <header class="hero">
+        <div class="hero-photo-wrap">
+          <img src="assets/profile.png" alt="Photo of Sean Nedorez" class="hero-photo">
+        </div>
+        <div class="hero-text">
+          <p class="eyebrow">&lt;business-card/&gt;</p>
+          <h1 class="name">Sean Nedorez</h1>
+          <p class="title">Senior SAP Human Resources Consultant <span class="dot">&middot;</span> Computer Science</p>
+          <p class="location">&#128205; Kfar Saba, Center District, Israel</p>
+
+          <ul class="contact-list">
+            <li>
+              <a href="https://github.com/Shonedo25" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <span class="contact-icon" aria-hidden="true">&#128187;</span> github.com/Shonedo25
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/sean-nedorez-96abb7225" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <span class="contact-icon" aria-hidden="true">&#128100;</span> linkedin.com/in/sean-nedorez-96abb7225
+              </a>
+            </li>
+            <li>
+              <a href="mailto:shonedo25@gmail.com" class="contact-link">
+                <span class="contact-icon" aria-hidden="true">&#9993;</span> shonedo25@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+972526999866" class="contact-link">
+                <span class="contact-icon" aria-hidden="true">&#128222;</span> +972 52-699-9866
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <section class="section about">
+        <h2 class="section-title"><span class="section-index">01.</span> About</h2>
+        <p>
+          As a Senior SAP Human Resources Consultant, I focus on delivering SAP HR solutions while
+          collaborating with teams to implement strategic HR PA and OM modules. Alongside my
+          consulting work, I have a Computer Science background and a strong interest in
+          software development &mdash; I enjoy building practical, real-world applications in my
+          spare time, ranging from AI-assisted tools to data-driven dashboards, and I'm always
+          looking for the next interesting problem to solve in code.
+        </p>
+      </section>
+
+      <section class="section projects">
+        <h2 class="section-title"><span class="section-index">02.</span> Projects</h2>
+        <div class="project-grid">
+
+          <a class="project-card" href="https://github.com/Shirkann/Eureka" target="_blank" rel="noopener noreferrer">
+            <div class="project-card-head">
+              <span class="project-icon" aria-hidden="true">&#128269;</span>
+              <h3>Eureka</h3>
+            </div>
+            <p>An app for lost and found &mdash; helping people report and recover misplaced items.</p>
+            <span class="project-link">View repository &rarr;</span>
+          </a>
+
+          <a class="project-card" href="https://github.com/LironDabach/Mingo" target="_blank" rel="noopener noreferrer">
+            <div class="project-card-head">
+              <span class="project-icon" aria-hidden="true">&#129302;</span>
+              <h3>Mingo</h3>
+            </div>
+            <p>An AI-based meeting management system that improves meeting quality, efficiency and
+              continuity, turning recorded conversations into structured summaries, decisions and
+              action items.</p>
+            <span class="project-link">View repository &rarr;</span>
+          </a>
+
+          <a class="project-card" href="https://github.com/Shonedo25/Yeshiva.ai" target="_blank" rel="noopener noreferrer">
+            <div class="project-card-head">
+              <span class="project-icon" aria-hidden="true">&#128663;</span>
+              <h3>Yeshiva.ai</h3>
+            </div>
+            <p>A homebrew project for an AI-powered carpool app, designed for friends coordinating
+              meet-ups.</p>
+            <span class="project-link">View repository &rarr;</span>
+          </a>
+
+          <a class="project-card" href="https://github.com/Shonedo25/Investments_sum" target="_blank" rel="noopener noreferrer">
+            <div class="project-card-head">
+              <span class="project-icon" aria-hidden="true">&#128200;</span>
+              <h3>Investments_sum</h3>
+            </div>
+            <p>A Python script that analyzes an investment broker's performance across various
+              parameters and displays a dashboard of trends and suggested investments.</p>
+            <span class="project-link">View repository &rarr;</span>
+          </a>
+
+        </div>
+      </section>
+
+      <section class="section skills">
+        <h2 class="section-title"><span class="section-index">03.</span> Skills</h2>
+        <ul class="skills-list">
+          <li>SAP HR (PA &amp; OM)</li>
+          <li>Python</li>
+          <li>HTML &amp; CSS</li>
+          <li>Data Analysis</li>
+          <li>AI-assisted tooling</li>
+          <li>Process Automation</li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <p>Built with HTML &amp; CSS only &mdash; no JavaScript.</p>
+      </footer>
+
+    </main>
+  </div>
+
+</body>
+</html>
